@@ -1,13 +1,35 @@
-# Digital Note-Taker with Contextual Search
+# Digital Note-Taker
 
-This project is a digital note-taking app with advanced NLP capabilities for summarization, tagging, and contextual search.
+A simple, responsive note-taking web application with local storage support. Users can create, edit, delete, and organize notes with tags.
 
 ## Features
+- **Add, Edit, and Delete Notes:** Manage notes with a title, content, and optional tags.
+- **Responsive Design:** Works seamlessly across devices with dark and light themes.
+- **Local Storage Support:** Notes are saved locally, ensuring availability offline.
+- **Validation:** Ensures proper input for titles and tags.
 
-- Note-taking with NLP-powered summaries and tagging
-- Contextual search to retrieve notes by topic or key phrases
-- User-friendly interface for efficient organization
+## Technologies Used
+- **React:** For building the user interface.
+- **LocalStorage:** For offline data persistence.
+- **CSS:** For styling and responsive design.
 
-## Getting Started
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/haseebraza715/DNT.git
+   cd DNT
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Instructions for setting up the project will be added as the project progresses.
+## Deployment
+The app is deployed on [GitHub Pages](https://haseebraza715.github.io/DNT).
+
+## Author
+Created by [Haseeb Raza](https://www.linkedin.com/in/haseeb-raza-00a845231/).
