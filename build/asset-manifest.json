@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/haseebraza715/dnt/static/css/main.dd53f853.css",
+    "main.js": "/haseebraza715/dnt/static/js/main.8db7c4d8.js",
+    "index.html": "/haseebraza715/dnt/index.html",
+    "main.dd53f853.css.map": "/haseebraza715/dnt/static/css/main.dd53f853.css.map",
+    "main.8db7c4d8.js.map": "/haseebraza715/dnt/static/js/main.8db7c4d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd53f853.css",
+    "static/js/main.8db7c4d8.js"
+  ]
+}

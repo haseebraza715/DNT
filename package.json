@@ -1,32 +1,33 @@
 {
-  "name": "digital-note-taker",
+  "name": "dnt",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://haseebraza715.github.io/digital-note-taker",
-  "dependencies": {
-    "axios": "^1.7.7",
-    "mongodb": "^6.10.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.3.0",
-    "react-scripts": "5.0.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
+  "description": "A digital note-taking app with advanced NLP capabilities for summarization, tagging, and contextual search.",
+  "main": "App.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/haseebraza715/digital-note-taker.git"
+    "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "homepage": "https://github.com/haseebraza715/dnt",
+  "keywords": [
+    "note-taking",
+    "NLP",
+    "summarization",
+    "contextual-search",
+    "React"
+  ],
+  "author": "Haseeb Raza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
